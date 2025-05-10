@@ -443,10 +443,10 @@ btn_apply_blur.grid(row=3, column=4, padx=10)
 btn_equalize = Button(frame_controls, text="Equalize Histogram", command=histogram_equalization)
 btn_equalize.grid(row=1, column=2, padx=10, pady=10)
 
-btn_gaussian_noise = Button(frame_controls, text="Add Gaussian Noise", command=add_gaussian_noise)
+btn_gaussian_noise = Button(frame_controls, text="Gaussian Noise", command=add_gaussian_noise)
 btn_gaussian_noise.grid(row=6, column=0, padx=10, pady=5)
 
-btn_sp_noise = Button(frame_controls, text="Add Salt & Pepper Noise", command=add_salt_pepper_noise)
+btn_sp_noise = Button(frame_controls, text="Salt & Pepper Noise", command=add_salt_pepper_noise)
 btn_sp_noise.grid(row=6, column=1, padx=10, pady=5)
 
 btn_midpoint = Button(frame_controls, text="Midpoint Filter", command=apply_midpoint_filter)
